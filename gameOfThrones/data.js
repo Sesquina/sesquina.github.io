@@ -15,6 +15,7 @@ const store = [
       answers: [
         'One of Daenerys Targaryen’s captured cities',
         'A title given to the wife of a Dothraki warlord',
+        'All Men Must Die',
         'The name of the Night King',
       ],
       correctAnswer: 'A title given to the wife of a Dothraki warlord',

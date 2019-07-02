@@ -1,11 +1,11 @@
 'use strict'
 
 /* User story:
-This quiz app allows users to take a quiz on a topic about Game of Thrones.
+This quiz app allows users to take a quiz on a topic about Game of Thrones. 
 The app starts with an introduction page and by clicking the start button, the user is redirected to the first set of multiple choice questions on the quiz.
-If the user gets the selected answer correct, an image will appear with the text: Correct! And a button that directs the user to the next question.
+If the user gets the selected answer correct, an image will appear with the text: Correct! And a button that directs the user to the next question. 
 If the user does not get the selected answer correct, the correct answer appears, and a button directs the user to the next question.
-Through each question, the user knows which question they are on and what their score is.
+Through each question, the user knows which question they are on and what their score is. 
 Finally, once they are done all 10 questions, a button appears asking them to play again, and it redirects the user to the start of the quiz. */
 
 //console.log(store);
@@ -15,7 +15,7 @@ Finally, once they are done all 10 questions, a button appears asking them to pl
 let questionIndex = 0;
 let score = 0;
 
-// this function handles when users click the first start
+// this function handles when users click the first start 
 // button, it directs them to the first set of questions, my HTML form.
 function handleStartButton() {
   $('#js-start-button').on('click', event => {
@@ -70,7 +70,7 @@ function questionPage(questionIndex) {
 function handleSubmitButton() {
   $('.container').on('submit', '.quizForm', event => {
     event.preventDefault();
-    //console.log('Form submitted!')
+    //console.log('Form submitted!') 
     const answerSelected = $('input:checked').val();
     const userIsCorrect = checkUserAnswer(answerSelected)
     if (userIsCorrect) {
@@ -81,7 +81,7 @@ function handleSubmitButton() {
     }
     questionIndex++;
   });
-}
+} 
 
 // this function matches the correct answer to the correctAnswer key in my
 // data value 'store'
@@ -103,7 +103,7 @@ function generateCorrectFeedback() {
 }
 
 function generateIncorrectFeedback() {
-  const incorrectFeedback = `
+  const incorrectFeedback = ` 
     <main role="main">
       <h2 class="feedbackText incorrectText">Nope! The answer is: ${store[questionIndex].correctAnswer}.</h2>
       <button class="nextButton" type="submit">Next</button>
@@ -112,7 +112,7 @@ function generateIncorrectFeedback() {
 }
 
 function handleNextButton() {
-  $('.container').on('click', '.nextButton', event => {
+  $('.container').on('click', '.nextButton', event => { 
     // console.log(questionIndex);
     if (questionIndex < 10) {
       questionPage(questionIndex);

@@ -26,7 +26,7 @@ const store = [
       answers: [
         'House Stark',
         'House  Lannister',
-        'House Tyrell',
+        'House Tyrell', 
         'House Targaryen',
       ],
       correctAnswer: 'House Stark',
@@ -35,9 +35,9 @@ const store = [
     {
       question: 'Which character besides Jon Snow has also died and been resurrected by a Red Priest?',
       answers: [
-        'Gendry Waters',
-        'The Hound',
-        'Beric Dondarrion',
+        'Gendry Waters', 
+        'The Hound', 
+        'Beric Dondarrion', 
         'Robb Stark',
       ],
       correctAnswer: 'Beric Dondarrion',
@@ -46,9 +46,9 @@ const store = [
     {
       question: 'Arya’s direwolf is named…?',
       answers: [
-        'Visenya',
-        'Nymeria',
-        'Aemon',
+        'Visenya', 
+        'Nymeria', 
+        'Aemon', 
         'Viserion',
       ],
       correctAnswer: 'Nymeria',
@@ -57,9 +57,9 @@ const store = [
     {
       question: 'What is The Tyrell ancestral home?',
       answers: [
-        'Winterfell',
-        'Highgarden',
-        'The Vale',
+        'Winterfell', 
+        'Highgarden', 
+        'The Vale', 
         'Stormlands'
       ],
       correctAnswer: 'Highgarden',
@@ -68,9 +68,9 @@ const store = [
     {
       question: 'What did Tyrion Lannister murder his father, Tywin, with?',
       answers: [
-        'A dagger',
-        'A crossbow',
-        'Poisoned wine',
+        'A dagger', 
+        'A crossbow', 
+        'Poisoned wine', 
         'He strangled him with a necklace'
       ],
       correctAnswer:'A crossbow',
@@ -79,9 +79,9 @@ const store = [
     {
       question: 'Aside from Valyrian Steel, what else can kill White Walkers?',
       answers: [
-        'A Raven',
-        'Greyscale',
-        'Ice',
+        'A Raven', 
+        'Greyscale', 
+        'Ice', 
         'Dragon glass'
       ],
       correctAnswer:'Dragon glass',
@@ -90,9 +90,9 @@ const store = [
     {
       question: 'Which king did Jamie Lannister slay to earn his “Kingslayer” nickname?',
       answers: [
-        'King Robert Baratheon',
-        'King Aegon I Targaryen',
-        'King Aerys II Targaryen',
+        'King Robert Baratheon', 
+        'King Aegon I Targaryen', 
+        'King Aerys II Targaryen', 
         'King Joffrey Baratheon',
       ],
       correctAnswer: 'King Aerys II Targaryen',
@@ -101,9 +101,10 @@ const store = [
     {
       question: 'Who are Jon Snow\'s Real Parents?',
       answers: [
-        'Wylla and Eddard Stark',
+        'Wylla and Eddard Stark', 
         'Elia Martell and Viserys Targaryen', 'Lyanna Stark and Rhaegar Targaryen', 'Cersie Lannister and Robert Baratheon'
       ],
       correctAnswer: 'Lyanna Stark and Rhaegar Targaryen',
     }
 ];
+
